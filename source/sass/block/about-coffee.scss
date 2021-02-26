@@ -1,0 +1,51 @@
+.about-coffee {
+  position: relative;
+  margin-top: 51px;
+  border-top: 1px solid $light-green;
+  padding-top: 93px;
+  padding-bottom: 93px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: -37px;
+    left: 347px;
+    width: 73px;
+    height: 73px;
+    border: 28px solid $white;
+    background-color: $pink;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 51px;
+    left: 345px;
+    width: 227px;
+    height: 153px;
+    background-color: $super-light-green;
+  }
+}
+
+.about-coffee__grid {
+  display: flex;
+  gap: 49px;
+  padding: 0 60px;
+}
+
+.about-coffee__title {
+  margin: 0 0 54px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  line-height: 35px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.about-coffee__paragraph {
+  margin: 20px 0 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}

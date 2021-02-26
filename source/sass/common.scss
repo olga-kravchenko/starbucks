@@ -1,0 +1,62 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1256px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.button {
+  display: block;
+  width: 237px;
+  padding: 11px 20px 10px 20px;;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 23px;
+  color: $white;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid $white;
+  cursor: pointer;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}

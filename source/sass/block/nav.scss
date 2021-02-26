@@ -1,0 +1,9 @@
+.nav__item a{
+  &:hover {
+    color: $pink;
+  }
+
+  &:active {
+    color: $light-green;
+  }
+}

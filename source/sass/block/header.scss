@@ -1,0 +1,64 @@
+.header {
+  font-size: 18px;
+  background-color: $brown;
+}
+
+.header__logo {
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.header__grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav a {
+  padding: 16px 28px;
+  color: $white;
+  border: 1px solid transparent;
+
+  &:hover {
+    border: 1px solid $pink;
+  }
+
+  &:active {
+    border: 1px solid $light-green;
+  }
+}
+
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 82px;
+  width: 492px;
+}
+
+.header__basket{
+  padding: 16px 17px;
+  border: 1px solid transparent;
+
+  &:hover {
+    border: 1px solid $pink;
+  }
+
+  &:active {
+    border: 1px solid $light-green;
+  }
+}
+
+.header__basket-logo {
+  &:hover {
+    fill: $pink;
+  }
+  &:active {
+    fill: $light-green;
+  }
+}

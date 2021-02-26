@@ -1,0 +1,88 @@
+.promo {
+  position: relative;
+  background-color: $brown;
+  color: $white;
+}
+
+.promo__container {
+  position: relative;
+  padding: 52px 124px 124px 97px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: -32px;
+    right: 9px;
+    width: 220px;
+    height: 68px;
+    background-color: $white;
+  }
+}
+
+.promo__title {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.promo__subtitle {
+  margin: 3px 0 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: $blue-gray;
+  letter-spacing: 0.15em;
+}
+
+.promo__paragraph {
+  margin-top: 51px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 112%;
+  letter-spacing: 0.05em;
+  max-width: 279px
+}
+
+.promo__products {
+  display: flex;
+  gap: 6px;
+}
+
+.promo__img {
+  position: absolute;
+  top: -19px;
+  left: 590px;
+}
+
+.promo__button {
+  margin-top: 145px;
+
+  &:hover {
+    color: $brown;
+    background-color: $pink;
+  }
+
+  &:active {
+    color: $brown;
+    background-color: $light-green;
+  }
+}
+
+.promo__slider-group {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  bottom: 74px;
+  left: 810px;
+}
+
+.promo__slider {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+
+  &--active {
+    background-color: $pink;
+  }
+}

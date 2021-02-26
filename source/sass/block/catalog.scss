@@ -1,0 +1,35 @@
+.catalog {
+  position: relative;
+  border-top: 1px solid $light-green;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: -37px;
+    right: 347px;
+    width: 73px;
+    height: 73px;
+    border: 28px solid $white;
+    background-color: $pink;
+  }
+}
+
+.catalog__grid {
+  padding: 82px 100px 110px;
+}
+
+.catalog__title {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  line-height: 35px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.catalog__cards {
+  display: grid;
+  grid-template-columns: 302px 302px 302px;
+  gap: 74px;
+  margin-top: 34px;
+}
